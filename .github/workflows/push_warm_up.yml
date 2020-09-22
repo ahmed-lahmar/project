@@ -1,7 +1,7 @@
 name: pushing_warm_up
 on:
   schedule:
-    - cron: "55 8 * * mon-sat"
+    - cron: "55 7 * * mon-sat"
   workflow_dispatch:
 jobs:
   read_warm_up_name:
@@ -11,8 +11,6 @@ jobs:
         id: date
         # the form yymmdd
         run: echo "::set-output name=date::$(date +'%y%m%d')"
-      - name: echo
-        run: echo ${{steps.date.outputs.date}}
       - name: caculate off set
         run: echo ::set-env name=OFF_SET::"$(( (($(date --date="${{ steps.date.outputs.date }}" +%s) - $(date --date="${{ secrets.FIRST_DAY }}" +%s) )/(60*60*24) )+ 1 ))"
       - name: dump Results
