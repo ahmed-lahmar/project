@@ -1,0 +1,15 @@
+h1{ font-size: x-large;
+    font-style: Medium 500;
+    width: 200;
+    height: 100;
+
+}
+div {
+    background-image: url(https://www.trustford.co.uk/img/aftersales/hints.jpg);
+}
+h2 {
+    position: top right;
+    font-size: inherit;
+    font-style: regular 400;
+
+}

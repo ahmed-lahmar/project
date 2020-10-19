@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    background-color: #111;
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.trustford.co.uk%2Fservicing-and-parts%2Fhints-and-tips%2F&psig=AOvVaw1HATkUHlE7vi5hohROn_8W&ust=1602948397058000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJjQu6W2uewCFQAAAAAdAAAAABAD);
+}
+h1{
+    color: white;
+    text-align:  center;
+    font-size: xx-large;
+}

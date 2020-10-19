@@ -1,0 +1,6 @@
+git remote -v
+git pull RBK master
+git add .
+git commit -m ''
+git push
+------------------------------------------------------------

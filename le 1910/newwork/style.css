@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}   
+
+h1 {
+    color:red;
+    font : 50 ;
+    text-align: center;  
+    width: 500px;  
+    height: 300px;  
+     padding-top: 100px
+    ;
+}
+.addButton{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: #fff;
+    margin: 5rem;
+    cursor: pointer;
+}
+.addButton:hover{
+    opacity: 1;
+}
+body{
+    background-image:  url(https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max);
+    background-position: 50% 22%
+}
